@@ -1,0 +1,2101 @@
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>报表</title>
+<link rel="stylesheet" href="reportfiles/css/ns_report.css" />
+<link rel="stylesheet" href="reportfiles/css/ns_report_rsas.css" />
+<link rel="stylesheet" href="reportfiles/js/datepicker/skin/WdatePicker.css" />
+<script src="reportfiles/js/jquery.js"></script>
+<script src="reportfiles/js/common.js"></script>
+<script src="reportfiles/js/datepicker/WdatePicker.js"></script>
+</head>
+<body>
+<div id="report" class="wrapper_w800">
+  <div class="report_tip"></div>
+  <div  id="head"  class="report_title">
+    <h1>绿盟科技&#34;远程安全评估系统&#34;安全评估报告</h1>
+    <span class="note">&nbsp;</span> </div>
+  <!--head end,catalog start-->
+  <div id="catalog">
+    <div class="report_h1">目录</div>
+  </div>
+  <div id="content"><div class="report_h report_h1">1.综述信息</div>
+<div class="report_content"><div class="report_h report_h2" id="title00">1.1任务信息</div>
+  <div>
+    <table class="report_table plumb">
+      <tbody>
+        <tr class="odd" >
+          <th width="120" style="vertical-align:middle">网络风险</th>
+          <td style="padding:6px;"><img src='reportfiles/images/b_middle.gif' title='比较危险'></img><span class="level_danger middle" style='color:#F84F00'>比较危险（5.0分）</span></td>
+        </tr>
+      </tbody>
+    </table>
+    <table width="100%">
+      <tr>
+        <td width="50%" valign='top'>
+        <table class="report_table plumb">
+            <tbody><tr class="odd" >
+                <th width="120">任务名称</th>
+                <td>扫描【163.200.100.63-64】</td>
+              </tr>
+              <tr class="even" >
+                <th>任务类型</th>
+                <td>漏洞扫描</td>
+              </tr>
+              <tr class="odd" >
+                <th width="120">任务状态</th>
+                <td>扫描完成</td>
+              </tr><tr class="even">
+                  <th>漏洞扫描模板</th>
+                  <td>自动匹配扫描</td>
+              </tr><tr class="odd" >
+                <th>下达任务用户</th>
+                <td>admin</td>
+              </tr>
+              <tr class="even" >
+                <th>任务数据来源</th>
+                <td>本地扫描</td>
+              </tr>
+              <tr class="odd" >
+                <th>任务说明</th>
+                <td></td>
+              </tr>
+            </tbody>
+          </table>
+          </td>
+        <td width="20px"></td>
+        <td width="50%" valign='top'>
+        <table class="report_table plumb">
+            <tbody><tr class="odd">
+                <th width="120px" >时间统计</th>
+                <td>
+                    开始：2017-04-24 16:48:06<br />
+                    结束：2017-04-24 16:50:52</td>
+              </tr>
+              <tr class="even">
+                  <th>主机统计</th>
+                  <td>
+                  存活主机：2<br />
+                  成功扫描主机：2<br />
+                  失败扫描主机：0<br />
+                  未扫描主机：0</td>
+              </tr>
+              <tr class="odd">
+                  <th>系统版本信息</th>
+                  <td>V6.0R02F02SP01</td>
+              </tr>
+            </tbody>
+          </table>
+          </td>
+      </tr>
+    </table>
+  </div><div class="report_h report_h2" id="title01">1.2风险分布</div>
+  <div>
+    <div class="report_h report_h3">1.2.1主机风险分布</div>
+    <div class="center"><img  src="reportfiles/images/284a635eecc4d4235a2b968f4107837b.png"></img></div>
+    <div class="report_h report_h3">1.2.2详细风险分布</div>
+    <div class="center"><img  src="reportfiles/images/21d3b1caf966338b6f3e3ec1fc7841f7.png"></img>-</div>
+  </div><div class="report_h report_h2" id="title02">1.3资产综述</div>
+  <div><div class="report_h report_h3">1.3.1操作系统</div>
+    <table  width="100%">
+      <tr>
+        <td width="50%" ><div class="center"><img  src="reportfiles/images/79c980632c6f24ab905616371bbfc57e.png"></img></div></td>
+        <td width="50%"><table class="report_table ">
+            <thead>
+              <tr>
+                <th>操作系统</th>
+                <th>主机数量</th>
+                <th>比率</th>
+              </tr>
+            </thead>
+            <tbody><tr class="odd">
+                <td>linux</td>
+                <td>2</td>
+                <td>100%</td>
+            </tr></tbody>
+            <tfoot>
+            <tr>
+                <th>合计</th>
+                <th>2</th>
+                <th>100%</th>
+            </tr>
+            </tfoot>
+          </table>
+        </td>
+      </tr>
+    </table></div></div><div class="report_h report_h1">2.风险类别</div>
+<div class="report_content"><div class="report_h report_h2" id="vuln_risk_category">2.1漏洞风险类别</div>
+  <div><div class="report_h report_h3">2.1.1服务</div>
+    <table  width="100%">
+      <tr>
+        <td width="50%" ><div class="center"><img src="reportfiles/images/bafa5f9981455e5b9b84eb144a71b410.png"/></div></td>
+        <td width="50%" ><table class="report_table ">
+            <thead>
+            <tr class="second_title">
+                <th>服务</th>
+                <th width="40px">高风险</th>
+                <th width="40px">中风险</th>
+                <th width="40px">低风险</th>
+                <th width="40px">总计</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="even">
+            <td>WWW</td>
+            <td>0</td>
+            <td>3</td>
+            <td>6</td>
+            <td>9</td>
+            </tr><tr class="odd">
+            <td>其他</td>
+            <td>0</td>
+            <td>2</td>
+            <td>1</td>
+            <td>3</td>
+            </tr><tr class="even">
+            <td>SSH</td>
+            <td>0</td>
+            <td>0</td>
+            <td>3</td>
+            <td>3</td>
+            </tr><tr class="odd">
+            <td>X Window</td>
+            <td>0</td>
+            <td>0</td>
+            <td>2</td>
+            <td>2</td>
+            </tr><tr class="even">
+            <td>Kernel</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr class="second_title" >
+                <td>合计</td>
+                <td width="40px">0</td>
+                <td width="40px">5</td>
+                <td width="40px">13</td>
+                <td width="40px">18</td>
+            </tr>
+            </tfoot>
+          </table></td>
+      </tr>
+    </table><div class="report_h report_h3">2.1.2应用</div>
+    <table  width="100%">
+      <tr>
+        <td width="50%" ><div class="center"><img src="reportfiles/images/3d16f9ae192c46e818ec36405fb629ff.png"/></div></td>
+        <td width="50%" ><table class="report_table ">
+            <thead>
+            <tr class="second_title">
+                <th>应用</th>
+                <th width="40px">高风险</th>
+                <th width="40px">中风险</th>
+                <th width="40px">低风险</th>
+                <th width="40px">总计</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="even">
+            <td>其他</td>
+            <td>0</td>
+            <td>5</td>
+            <td>10</td>
+            <td>15</td>
+            </tr><tr class="odd">
+            <td>SSH</td>
+            <td>0</td>
+            <td>0</td>
+            <td>2</td>
+            <td>2</td>
+            </tr><tr class="even">
+            <td>OpenSSH</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr class="second_title" >
+                <td>合计</td>
+                <td width="40px">0</td>
+                <td width="40px">5</td>
+                <td width="40px">13</td>
+                <td width="40px">18</td>
+            </tr>
+            </tfoot>
+          </table></td>
+      </tr>
+    </table><div class="report_h report_h3">2.1.3系统</div>
+    <table  width="100%">
+      <tr>
+        <td width="50%" ><div class="center"><img src="reportfiles/images/27b9e7cc18432bcc256471faf0473614.png"/></div></td>
+        <td width="50%" ><table class="report_table ">
+            <thead>
+            <tr class="second_title">
+                <th>系统</th>
+                <th width="40px">高风险</th>
+                <th width="40px">中风险</th>
+                <th width="40px">低风险</th>
+                <th width="40px">总计</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="even">
+            <td>系统无关</td>
+            <td>0</td>
+            <td>5</td>
+            <td>11</td>
+            <td>16</td>
+            </tr><tr class="odd">
+            <td>UNIX通用</td>
+            <td>0</td>
+            <td>0</td>
+            <td>2</td>
+            <td>2</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr class="second_title" >
+                <td>合计</td>
+                <td width="40px">0</td>
+                <td width="40px">5</td>
+                <td width="40px">13</td>
+                <td width="40px">18</td>
+            </tr>
+            </tfoot>
+          </table></td>
+      </tr>
+    </table><div class="report_h report_h3">2.1.4威胁</div>
+    <table  width="100%">
+      <tr>
+        <td width="50%" ><div class="center"><img src="reportfiles/images/74156d2e056b2a3957b5a243466b1f4e.png"/></div></td>
+        <td width="50%" ><table class="report_table ">
+            <thead>
+            <tr class="second_title">
+                <th>威胁</th>
+                <th width="40px">高风险</th>
+                <th width="40px">中风险</th>
+                <th width="40px">低风险</th>
+                <th width="40px">总计</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="even">
+            <td>远程信息泄露</td>
+            <td>0</td>
+            <td>2</td>
+            <td>9</td>
+            <td>11</td>
+            </tr><tr class="odd">
+            <td>其他</td>
+            <td>0</td>
+            <td>2</td>
+            <td>2</td>
+            <td>4</td>
+            </tr><tr class="even">
+            <td>远程拒绝服务</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            </tr><tr class="odd">
+            <td>不必要的服务</td>
+            <td>0</td>
+            <td>0</td>
+            <td>2</td>
+            <td>2</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr class="second_title" >
+                <td>合计</td>
+                <td width="40px">0</td>
+                <td width="40px">5</td>
+                <td width="40px">13</td>
+                <td width="40px">18</td>
+            </tr>
+            </tfoot>
+          </table></td>
+      </tr>
+    </table><div class="report_h report_h3">2.1.5时间</div>
+    <table  width="100%">
+      <tr>
+        <td width="50%" ><div class="center"><img src="reportfiles/images/c0bca2145086edd440befcf4f8cf4b95.png"/></div></td>
+        <td width="50%" ><table class="report_table ">
+            <thead>
+            <tr class="second_title">
+                <th>时间</th>
+                <th width="40px">高风险</th>
+                <th width="40px">中风险</th>
+                <th width="40px">低风险</th>
+                <th width="40px">总计</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="even">
+            <td>2015年</td>
+            <td>0</td>
+            <td>3</td>
+            <td>0</td>
+            <td>3</td>
+            </tr><tr class="odd">
+            <td>2011年</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            </tr><tr class="even">
+            <td>2014年</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            </tr><tr class="odd">
+            <td>1999年</td>
+            <td>0</td>
+            <td>0</td>
+            <td>6</td>
+            <td>6</td>
+            </tr><tr class="even">
+            <td>2001年</td>
+            <td>0</td>
+            <td>0</td>
+            <td>5</td>
+            <td>5</td>
+            </tr><tr class="odd">
+            <td>2013年</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            </tr><tr class="even">
+            <td>2016年</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr class="second_title" >
+                <td>合计</td>
+                <td width="40px">0</td>
+                <td width="40px">5</td>
+                <td width="40px">13</td>
+                <td width="40px">18</td>
+            </tr>
+            </tfoot>
+          </table></td>
+      </tr>
+    </table><div class="report_h report_h3">2.1.6CVE年份</div>
+    <table  width="100%">
+      <tr>
+        <td width="50%" ><div class="center"><img src="reportfiles/images/12fe786b0f4fcbd1ed31471f84ea8a95.png"/></div></td>
+        <td width="50%" ><table class="report_table ">
+            <thead>
+            <tr class="second_title">
+                <th>CVE年份</th>
+                <th width="40px">高风险</th>
+                <th width="40px">中风险</th>
+                <th width="40px">低风险</th>
+                <th width="40px">总计</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr class="even">
+            <td>CVE-2015</td>
+            <td>0</td>
+            <td>3</td>
+            <td>0</td>
+            <td>3</td>
+            </tr><tr class="odd">
+            <td>CVE-2011</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            </tr><tr class="even">
+            <td>CVE-2014</td>
+            <td>0</td>
+            <td>1</td>
+            <td>0</td>
+            <td>1</td>
+            </tr><tr class="odd">
+            <td>Others</td>
+            <td>0</td>
+            <td>0</td>
+            <td>7</td>
+            <td>7</td>
+            </tr><tr class="even">
+            <td>CVE-1999</td>
+            <td>0</td>
+            <td>0</td>
+            <td>5</td>
+            <td>5</td>
+            </tr><tr class="odd">
+            <td>CVE-2013</td>
+            <td>0</td>
+            <td>0</td>
+            <td>1</td>
+            <td>1</td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr class="second_title" >
+                <td>合计</td>
+                <td width="40px">0</td>
+                <td width="40px">5</td>
+                <td width="40px">13</td>
+                <td width="40px">18</td>
+            </tr>
+            </tfoot>
+          </table></td>
+      </tr>
+    </table></div></div><div class="report_h report_h1">3.主机信息</div>
+<div class="report_content">
+  <div class="report_h report_h2" id="title00">3.1主机风险等级列表</div>
+  <div>
+    <table class="report_table">
+      <thead>
+      <tr class="first_title">
+        <td width="130px" rowspan="2">IP地址</td>
+        <td rowspan="2">主机名</td>
+        <td rowspan="2">操作系统</td><td colspan="4" width="40px">漏洞风险（个）</td><th rowspan='2' width="40px" style="white-space:pre-wrap;">主机
+风险值</th>
+      </tr><tr class="second_title">
+        <td width="40px">高</td>
+        <td width="40px">中</td>
+        <td width="40px">低</td>
+        <td width="40px">总计</td>
+      </tr></thead>
+      <tbody>
+      
+      <tr style="cursor:pointer;" class="odd" onclick="no_toggle('3_1_1','3_1_1_1')" >
+        <td><img align='absmiddle' src='reportfiles/images/d_middle.gif' title='比较危险'></img><a href="host/163.200.100.63.html" target="_blank">163.200.100.63</a></td>
+        <td>II-COL</td>
+        <td>Linux 2.6.32 - 2.6.35</td><td><span class="font_high">0</span></td>
+        <td>3</td>
+        <td>10</td>
+        <td>13</td><td><span class="font_bold">5.0</span></td>
+      </tr>
+      
+      <tr style="cursor:pointer;" class="even" onclick="no_toggle('3_1_2','3_1_2_1')" >
+        <td><img align='absmiddle' src='reportfiles/images/d_low.gif' title='比较安全'></img><a href="host/163.200.100.64.html" target="_blank">163.200.100.64</a></td>
+        <td></td>
+        <td>Linux 2.6.32 - 2.6.35</td><td><span class="font_high">0</span></td>
+        <td>4</td>
+        <td>9</td>
+        <td>13</td><td><span class="font_bold">4.4</span></td>
+      </tr>
+      
+      </tbody>
+      <tfoot>
+      <tr class="second_title">
+        <td colspan="3">合计</td><td><span class="font_high">0</span></td>
+        <td>7</td>
+        <td>19</td>
+        <td>26</td><td>5.0</td>
+      </tr>
+      </tfoot>
+    </table>
+  </div>
+  
+</div>
+
+<div class="report_h report_h1">4.漏洞信息</div>
+<div class="report_content"><div class="report_h report_h2" id="title00">4.1漏洞分布</div>
+  <div>
+    <div style="text-align:right; vertical-align:middle;">漏洞类别：<img align="absbottom" src="reportfiles/images/vuln_middle.gif">中危险[5]&nbsp;&nbsp;<img align="absbottom" src="reportfiles/images/vuln_low.gif">低风险[13]&nbsp;&nbsp;</div>
+    <table id="vuln_distribution" class="report_table">
+    <thead>
+    <tr class="second_title">
+        <th style='width:40px'>序号</th>
+        <th >漏洞名称</th>
+        <th style='width:60px'>影响主机个数</th>
+        <th style='width:40px'>影响主机百分比</th>
+        <th style='width:30px'>出现次数</th>
+    </tr>
+    </thead>
+    <tbody>
+    
+    <tr class="odd vuln_middle" style="cursor:pointer;" onclick="no_toggle('4_1_1','table_4_1_1')">
+        <td>1</td>
+        <td>
+        <img id="4_1_1" class="ico plus" src="reportfiles/images/blank.gif">
+        <img align='absmiddle' src='reportfiles/images/vuln_middle.gif' ></img>
+        <span style='color:#AF6100'>服务器支持 TLS Client-initiated 重协商攻击【原理扫描】</span>
+        <!--<span class="level_danger_high">服务器支持 TLS Client-initiated 重协商攻击【原理扫描】</span></td>-->
+        </td>
+        <td>1/2</td>
+        <td>50%</td>
+        <td>1</td>
+    </tr>
+    <tr class="more hide odd" id="table_4_1_1">
+        <th></th>
+        <td style="padding-left:20px" class="extend" colspan='4'>
+            <table style="white-space:pre-wrap;" class="report_table" width="100%"><tr class="odd">
+                <th width="20%">受影响主机</th>
+                <td width="80%"><a href="host/163.200.100.63.html" target="_blank">163.200.100.63</a>;&nbsp</td>
+            </tr>
+            
+            
+    <tr class="even">
+        <th>详细描述</th>
+        <td>该漏洞存在于SSL renegotiation的过程中。对于使用SSL重协商功能的服务都会受其影响。特别的，renegotiation被用于浏览器到服务器之间的验证。虽然目前可以在不启用renegotiation进程的情况下使用HTTPS，但很多服务器的默认设置均启用了renegotiation功能。该漏洞只需要一台普通电脑和DSL连接即可轻易攻破SSL服务器。而对于大型服务器集群来说，则需要20台电脑和120Kbps的网络连接即可实现。SSL是银行、网上电子邮件服务和其他用于服务器和用户之间保护私人数据并安全通信必不可少的功能。所以本次拒绝服务漏洞影响范围非常广危害非常大。</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>解决办法</th>
+        <td>使用SSL开启重协商的服务都会受该漏洞影响.
+
+Apache解决办法：
+   升级到Apache 2.2.15以后版本
+
+IIS解决办法：
+    IIS 5.0启用SSL服务时，也会受影响。可以升级IIS 6.0到更高的版本。
+
+Lighttpd解决办法：
+      建议升级到lighttpd 1.4.30或者更高,并设置ssl.disable-client-renegotiation = &#34;enable&#34;。  
+    http://download.lighttpd.net/lighttpd/releases-1.4.x/
+ 
+Nginx解决办法：
+    0.7.x升级到nginx 0.7.64 ,0.8.x升级到 0.8.23 以及更高版本。
+    http://nginx.org/en/download.html
+
+Tomcat解决办法：
+ 1、使用NIO connector代替BIO connector，因为NIO不支持重协商，参考如下配置：
+&lt;Connector protocol=&#34;org.apache.coyote.http11.Http11NioProtocol&#34;&gt;
+（可能会影响Tomcat性能）；
+ 2、配置Nginx反向代理，在Nginx中修复OpenSSL相关问题。
+    参考链接:
+    https://tomcat.apache.org/tomcat-6.0-doc/ssl-howto.html
+    https://tomcat.apache.org/tomcat-7.0-doc/ssl-howto.html
+    http://tomcat.apache.org/security-7.html#Not_a_vulnerability_in_Tomcat
+    https://tomcat.apache.org/tomcat-6.0-doc/config/http.html#Connector_Comparison
+
+其它服务解决方案请联系各应用厂商确认关闭重协商的方法。</td>
+    </tr>
+    
+    <tr class="even">
+        <th>威胁分值</th>
+        <td>5.0</td>
+    </tr>
+    <tr class="odd">
+        <th>危险插件</th>
+        <td>否</td>
+    </tr>
+    <tr class="even">
+        <th>发现日期</th>
+        <td>2012-06-16</td>
+    </tr>
+    
+    <tr class="odd">
+        <th>CVE编号</th>
+        <td><a target="_blank" href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2011-1473">CVE-2011-1473</a></a></td>
+    </tr>
+    
+    
+    
+    
+    
+    <tr class="even">
+        <th>CNCVE编号</th>
+        <td>CNCVE-20111473</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>CVSS评分</th>
+        <td>5.0</td>
+    </tr>
+    
+    
+    
+            </table>
+        </td>
+    </tr><tr class="even vuln_middle" style="cursor:pointer;" onclick="no_toggle('4_1_2','table_4_1_2')">
+        <td>2</td>
+        <td>
+        <img id="4_1_2" class="ico plus" src="reportfiles/images/blank.gif">
+        <img align='absmiddle' src='reportfiles/images/vuln_middle.gif' ></img>
+        <span style='color:#AF6100'>SSL 3.0 POODLE攻击信息泄露漏洞(CVE-2014-3566)【原理扫描】</span>
+        <!--<span class="level_danger_high">SSL 3.0 POODLE攻击信息泄露漏洞(CVE-2014-3566)【原理扫描】</span></td>-->
+        </td>
+        <td>1/2</td>
+        <td>50%</td>
+        <td>1</td>
+    </tr>
+    <tr class="more hide even" id="table_4_1_2">
+        <th></th>
+        <td style="padding-left:20px" class="extend" colspan='4'>
+            <table style="white-space:pre-wrap;" class="report_table" width="100%"><tr class="odd">
+                <th width="20%">受影响主机</th>
+                <td width="80%"><a href="host/163.200.100.64.html" target="_blank">163.200.100.64</a>;&nbsp</td>
+            </tr>
+            
+            
+    <tr class="even">
+        <th>详细描述</th>
+        <td>SSL3.0是已过时且不安全的协议，目前已被TLS 1.0，TLS 1.1，TLS 1.2替代，因为兼容性原因，大多数的TLS实现依然兼容SSL3.0。
+
+为了通用性的考虑，目前多数浏览器版本都支持SSL3.0，TLS协议的握手阶段包含了版本协商步骤，一般来说，客户端和服务器端的最新的协议版本将会被使用。其在与服务器端的握手阶段进行版本协商的时候，首先提供其所支持协议的最新版本，若该握手失败，则尝试以较旧的协议版本协商。能够实施中间人攻击的攻击者通过使受影响版本浏览器与服务器端使用较新协议的协商的连接失败，可以成功实现降级攻击，从而使得客户端与服务器端使用不安全的SSL3.0进行通信，此时，由于SSL 3.0使用的CBC块加密的实现存在漏洞，攻击者可以成功破解SSL连接的加密信息，比如获取用户cookie数据。这种攻击被称为POODLE攻击(Padding Oracle On Downgraded Legacy Encryption)。
+
+此漏洞影响绝大多数SSL服务器和客户端，影响范围广泛。但攻击者如要利用成功，需要能够控制客户端和服务器之间的数据(执行中间人攻击)。</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>解决办法</th>
+        <td>临时解决方法：
+
+SSL
+--------
+如果不能及时安装补丁，建议采用如下防护措施:
+ 
+* 禁用SSL 3.0协议。
+ 
+目前常用浏览器只有IE 6.0仍然不支持TLS 1.0，禁用SSL 3.0协议将影响IE 6客户的
+SSL访问。
+ 
+服务端禁用方法：
+ 
+Apache 2.x:
+在mod_ssl配置文件中使用如下命令禁用SSLv2和SSLv3：
+SSLProtocol All -SSLv2 -SSLv3
+重启Apache
+ 
+Nginx:
+在配置文件中使用：
+ssl_protocols TLSv1 TLSv1.1 TLSv1.2;
+重启Nginx
+ 
+lighttpd：
+确认lighttpd为1.4.29及以上版本
+在配置文件中使用
+ssl.use-sslv3 = &#34;disable&#34;
+重启lighttpd
+
+tomcat参考:
+    https://tomcat.apache.org/tomcat-6.0-doc/ssl-howto.html
+   https://tomcat.apache.org/tomcat-7.0-doc/ssl-howto.html
+
+IIS:
+查找如下注册表项：
+HKey_Local_Machine\System\CurrentControlSet\Control\SecurityProviders \SCHANNEL\Protocols
+该注册表项通常包含以下子项：
+* PCT 1.0
+* SSL 2.0
+* SSL 3.0
+* TLS 1.0
+每个注册表项都保留适用于该项的协议相关信息。可以在服务器上禁用这些协议中的任一种。为此，
+请在协议SSL 3.0的服务器子项中创建一个新的DWORD值。名称为Enabled,将DWORD值设置为“00 00 00 00”。  重启IIS服务
+
+浏览器禁用方法：
+ 
+IE:
+&#34;工具&#34; -&gt; &#34;Internet 选项&#34; -&gt; &#34;高级&#34; ，取消&#34;使用 SSL 3.0&#34;的复选框。
+Chrome:
+ 
+复制一个平时打开 Chrome 浏览器的快捷方式，在新的快捷方式上右键点击，进入属性，
+在&#34;目标&#34;后面的空格中字段的末尾输入以下命令 --ssl-version-min=tls1
+FireFox:
+ 
+在地址栏输入&#34;about:config&#34;，然后将 security.tls.version.min 调至 1。
+</td>
+    </tr>
+    
+    <tr class="even">
+        <th>威胁分值</th>
+        <td>4.3</td>
+    </tr>
+    <tr class="odd">
+        <th>危险插件</th>
+        <td>否</td>
+    </tr>
+    <tr class="even">
+        <th>发现日期</th>
+        <td>2014-10-14</td>
+    </tr>
+    
+    <tr class="odd">
+        <th>CVE编号</th>
+        <td><a target="_blank" href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566">CVE-2014-3566</a></a></td>
+    </tr>
+    
+    
+    
+    <tr class="even">
+        <th>NSFOCUS</th>
+        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/28032">28032</a></td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>CNNVD编号</th>
+        <td><a target="_blank" href="http://www.cnnvd.org.cn/vulnerability/show/cv_cnnvdid/CNNVD-201410-267">CNNVD-201410-267</a></td>
+    </tr>
+    
+    
+    <tr class="even">
+        <th>CNCVE编号</th>
+        <td>CNCVE-20143566</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>CVSS评分</th>
+        <td>4.3</td>
+    </tr>
+    
+    
+    <tr class="even">
+        <th>CNVD编号</th>
+        <td><a target="_blank" href="http://www.cnvd.org.cn/flaw/show/CNVD-2014-06718">CNVD-2014-06718</a></td>
+    </tr>
+    
+    
+            </table>
+        </td>
+    </tr><tr class="odd vuln_middle" style="cursor:pointer;" onclick="no_toggle('4_1_3','table_4_1_3')">
+        <td>3</td>
+        <td>
+        <img id="4_1_3" class="ico plus" src="reportfiles/images/blank.gif">
+        <img align='absmiddle' src='reportfiles/images/vuln_middle.gif' ></img>
+        <span style='color:#AF6100'>SSL/TLS 受诫礼(BAR-MITZVAH)攻击漏洞(CVE-2015-2808)【原理扫描】</span>
+        <!--<span class="level_danger_high">SSL/TLS 受诫礼(BAR-MITZVAH)攻击漏洞(CVE-2015-2808)【原理扫描】</span></td>-->
+        </td>
+        <td>2/2</td>
+        <td>100%</td>
+        <td>2</td>
+    </tr>
+    <tr class="more hide odd" id="table_4_1_3">
+        <th></th>
+        <td style="padding-left:20px" class="extend" colspan='4'>
+            <table style="white-space:pre-wrap;" class="report_table" width="100%"><tr class="odd">
+                <th width="20%">受影响主机</th>
+                <td width="80%"><a href="host/163.200.100.63.html" target="_blank">163.200.100.63</a>;&nbsp<a href="host/163.200.100.64.html" target="_blank">163.200.100.64</a>;&nbsp</td>
+            </tr>
+            
+            
+    <tr class="even">
+        <th>详细描述</th>
+        <td>SSL/TLS协议是一个被广泛使用的加密协议,Bar Mitzvah攻击实际上是利用了&#34;不变性漏洞&#34;，这是RC4算法中的一个缺陷，它能够在某些情况下泄露SSL/TLS加密流量中的密文，从而将账户用户名密码，信用卡数据和其他敏感信息泄露给黑客。</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>解决办法</th>
+        <td>临时解决方法：
+
+SSL/TLS
+--------
+1、禁止apache服务器使用RC4加密算法
+ vi /etc/httpd/conf.d/ssl.conf
+ 修改为如下配置
+ SSLCipherSuite HIGH:MEDIUM:!aNULL:!MD5:!RC4
+ 重启apache服务
+2、关于nginx加密算法
+ 1.0.5及以后版本，默认SSL密码算法是HIGH:!aNULL:!MD5
+ 0.7.65、0.8.20及以后版本，默认SSL密码算法是HIGH:!ADH:!MD5
+ 0.8.19版本，默认SSL密码算法是    ALL:!ADH:RC4+RSA:+HIGH:+MEDIUM
+ 0.7.64、0.8.18及以前版本，默认SSL密码算法是ALL:!ADH:RC4+RSA:+HIGH:+MEDIUM:+LOW:+SSLv2:+EXP
+ 低版本的nginx或没注释的可以直接修改域名下ssl相关配置为
+ssl_ciphers &#34;ECDHE-RSA-AES256-GCM-SHA384:ECDHE-RSA-AES128-GCM-SHA256:DHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-SHA256:ECDHE-RSA-AES
+ 256-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA256:DHE-RSA-AES128-SHA256:DHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:AES256-GCM-SHA384:AES128-GC
+ M-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:DES-CBC3-SHA:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4&#34;;
+ ssl_prefer_server_ciphers on;
+需要nginx重新加载服务
+
+3、关于lighttpd加密算法
+     在配置文件lighttpd.conf中禁用RC4算法，例如：
+ssl.cipher-list = &#34;EECDH+AESGCM:EDH+AESGCM:ECDHE-RSA-AES128-GCM-SHA256:AES256+EECDH:AES256+EDH:ECDHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES256-GCM-SHA384:DHE-RSA-AES128-GCM-SHA256:ECDHE-RSA-AES256-SHA384:ECDHE-RSA-AES128-SHA256:ECDHE-RSA-AES256-SHA:ECDHE-RSA-AES128-SHA:DHE-RSA-AES256-SHA256:DHE-RSA-AES128-SHA256:DHE-RSA-AES256-SHA:DHE-RSA-AES128-SHA:ECDHE-RSA-DES-CBC3-SHA:EDH-RSA-DES-CBC3-SHA:AES256-GCM-SHA384:AES128-GCM-SHA256:AES256-SHA256:AES128-SHA256:AES256-SHA:AES128-SHA:DES-CBC3-SHA:HIGH:!aNULL:!eNULL:!EXPORT:!DES:!MD5:!PSK:!RC4&#34;  
+
+重启lighttpd 服务。
+
+4、tomcat参考:
+    https://tomcat.apache.org/tomcat-6.0-doc/ssl-howto.html
+   https://tomcat.apache.org/tomcat-7.0-doc/ssl-howto.html
+
+5、浏览器手工屏蔽方案
+Windows 用户：
+ 1）完全关闭 Chrome 浏览器和Mozilla Firefox浏览器
+ 2）复制一个平时打开 Chrome 浏览器(Mozilla Firefox浏览器)的快捷方式
+ 3）在新的快捷方式上右键点击，进入属性
+ 4）在「目标」后面的空格中字段的末尾输入以下命令 --cipher-suite-blacklist=0x0004,0x0005,0xc011,0xc007
+
+Mac OS X 用户：
+1）完全关闭 Chrome 浏览器
+2）找到本机自带的终端（Terminal）
+3）输入以下命令：/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome --cipher-suite-blacklist=0x0004,0x0005,0xc011,0xc007
+ 
+Linux 用户：
+1）完全关闭 Chrome 浏览器
+2）在终端中输入以下命令：google-chrome --cipher-suite-blacklist=0x0004,0x0005,0xc011,0xc007</td>
+    </tr>
+    
+    <tr class="even">
+        <th>威胁分值</th>
+        <td>4.3</td>
+    </tr>
+    <tr class="odd">
+        <th>危险插件</th>
+        <td>否</td>
+    </tr>
+    <tr class="even">
+        <th>发现日期</th>
+        <td>2015-03-30</td>
+    </tr>
+    
+    <tr class="odd">
+        <th>CVE编号</th>
+        <td><a target="_blank" href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-2808">CVE-2015-2808</a></a></td>
+    </tr>
+    
+    
+    
+    <tr class="even">
+        <th>NSFOCUS</th>
+        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/30491">30491</a></td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>CNNVD编号</th>
+        <td><a target="_blank" href="http://www.cnnvd.org.cn/vulnerability/show/cv_cnnvdid/CNNVD-201503-654">CNNVD-201503-654</a></td>
+    </tr>
+    
+    
+    <tr class="even">
+        <th>CNCVE编号</th>
+        <td>CNCVE-20152808</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>CVSS评分</th>
+        <td>4.3</td>
+    </tr>
+    
+    
+    <tr class="even">
+        <th>CNVD编号</th>
+        <td><a target="_blank" href="http://www.cnvd.org.cn/flaw/show/CNVD-2015-02171">CNVD-2015-02171</a></td>
+    </tr>
+    
+    
+            </table>
+        </td>
+    </tr><tr class="even vuln_middle" style="cursor:pointer;" onclick="no_toggle('4_1_4','table_4_1_4')">
+        <td>4</td>
+        <td>
+        <img id="4_1_4" class="ico plus" src="reportfiles/images/blank.gif">
+        <img align='absmiddle' src='reportfiles/images/vuln_middle.gif' ></img>
+        <span style='color:#AF6100'>SSL/TLS 服务器瞬时 Diffie-Hellman 公共密钥过弱【原理扫描】</span>
+        <!--<span class="level_danger_high">SSL/TLS 服务器瞬时 Diffie-Hellman 公共密钥过弱【原理扫描】</span></td>-->
+        </td>
+        <td>2/2</td>
+        <td>100%</td>
+        <td>2</td>
+    </tr>
+    <tr class="more hide even" id="table_4_1_4">
+        <th></th>
+        <td style="padding-left:20px" class="extend" colspan='4'>
+            <table style="white-space:pre-wrap;" class="report_table" width="100%"><tr class="odd">
+                <th width="20%">受影响主机</th>
+                <td width="80%"><a href="host/163.200.100.63.html" target="_blank">163.200.100.63</a>;&nbsp<a href="host/163.200.100.64.html" target="_blank">163.200.100.64</a>;&nbsp</td>
+            </tr>
+            
+            
+    <tr class="even">
+        <th>详细描述</th>
+        <td>安全套接层（Secure Sockets Layer，SSL），一种安全协议，是网景公司（Netscape）在推出Web浏览器首版的同时提出的，目的是为网络通信提供安全及数据完整性。SSL在传输层对网络连接进行加密。传输层安全TLS（Transport Layer Security），IETF对SSL协议标准化（RFC 2246）后的产物，与SSL 3.0差异很小。
+
+当服务器SSL/TLS的瞬时Diffie-Hellman公共密钥小于等于1024位时，存在可以恢复纯文本信息的风险。
+
+DHE man-in-the-middle protection (Logjam)
+--------------------------------------------------------
+https://www.openssl.org/blog/blog/2015/05/20/logjam-freak-upcoming-changes/
+https://weakdh.org/sysadmin.html
+https://en.wikipedia.org/wiki/DiffieE28093Hellman_key_exchange#Security</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>解决办法</th>
+        <td>一. http服务器相关配置
+1.首先生成大于1024bit(例如2048bit)的dhkey
+openssl dhparam -out dhparams.pem 2048
+
+2.然后在对应服务器中配置
+
+Apache2.4.8及以后版本
+使用如下配置命令配置（http.conf中或者对应的虚拟主机配置文件中添加）
+SSLOpenSSLConfCmd DHParameters &#34;{path to dhparams.pem}&#34;
+ 
+Apache2.4.7版本
+Apache2.2.31版本及以后版本
+redhat debian等大多发行版中最新Apache2.2.x
+通过把dhparams.pem的内容直接附加到证书文件后
+ 
+Apache2.4.7之前2.4.x版本
+Apache2.2.31之前版本
+dhparam默认为1024bit 无法修改
+
+nginx使用如下命令配置（在对应的虚拟主机配置文件nginx.conf中server字段内添加）
+ssl_dhparam {path to dhparams.pem}
+
+二.如果服务器配置无法修改，例如Apache2.2.31之前版本，可以禁用DHE系列算法，采用保密性更好的ECDHE系列算法，如果ECDHE不可用可以采用普通的 RSA。
+
+
+更多解决方案请参考:
+https://weakdh.org/sysadmin.html</td>
+    </tr>
+    
+    <tr class="even">
+        <th>威胁分值</th>
+        <td>4.3</td>
+    </tr>
+    <tr class="odd">
+        <th>危险插件</th>
+        <td>否</td>
+    </tr>
+    <tr class="even">
+        <th>发现日期</th>
+        <td>2015-11-26</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    <tr class="odd">
+        <th>CVSS评分</th>
+        <td>4.3</td>
+    </tr>
+    
+    
+    
+            </table>
+        </td>
+    </tr><tr class="odd vuln_middle" style="cursor:pointer;" onclick="no_toggle('4_1_5','table_4_1_5')">
+        <td>5</td>
+        <td>
+        <img id="4_1_5" class="ico plus" src="reportfiles/images/blank.gif">
+        <img align='absmiddle' src='reportfiles/images/vuln_middle.gif' ></img>
+        <span style='color:#AF6100'>SSL/TLS LogJam中间人安全限制绕过漏洞 (CVE-2015-4000)【原理扫描】</span>
+        <!--<span class="level_danger_high">SSL/TLS LogJam中间人安全限制绕过漏洞 (CVE-2015-4000)【原理扫描】</span></td>-->
+        </td>
+        <td>1/2</td>
+        <td>50%</td>
+        <td>1</td>
+    </tr>
+    <tr class="more hide odd" id="table_4_1_5">
+        <th></th>
+        <td style="padding-left:20px" class="extend" colspan='4'>
+            <table style="white-space:pre-wrap;" class="report_table" width="100%"><tr class="odd">
+                <th width="20%">受影响主机</th>
+                <td width="80%"><a href="host/163.200.100.64.html" target="_blank">163.200.100.64</a>;&nbsp</td>
+            </tr>
+            
+            
+    <tr class="even">
+        <th>详细描述</th>
+        <td>TLS是安全传输层协议，用于在两个通信应用程序之间提供保密性和数据完整性。
+
+TLS 1.2及更早版本，在服务器上启用但不在客户端启用DHE_EXPORT密码组时，没有正确转送DHE_EXPORT选择，中间人攻击者通过用DHE_EXPORT代替DHE，重写ClientHello，然后用DHE代替DHE_EXPORT，重写ServerHello(即&#34;Logjam&#34;问题)，利用此漏洞可执行密码降级攻击。
+
+&lt;*来源：Nadia Heninger
+        Zakir Durumeric
+        Karthikeyan Bhargavan
+        David Adrian
+        k Paul Zimmermann
+  
+  链接：https://www.openssl.org/news/secadv_20150611.txt
+*&gt;
+</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>解决办法</th>
+        <td>建议：禁用带EXPORT或者EXP的算法
+
+
+厂商补丁：
+
+OpenSSL Project
+---------------
+OpenSSL Project已经为此发布了一个安全公告（secadv_20150611）以及相应补丁或者升级到高版本修复此漏洞:
+secadv_20150611：OpenSSL Security Advisory [11 Jun 2015]
+链接：https://www.openssl.org/news/secadv_20150611.txt
+
+https://www.openssl.org/source/</td>
+    </tr>
+    
+    <tr class="even">
+        <th>威胁分值</th>
+        <td>4.3</td>
+    </tr>
+    <tr class="odd">
+        <th>危险插件</th>
+        <td>否</td>
+    </tr>
+    <tr class="even">
+        <th>发现日期</th>
+        <td>2015-05-22</td>
+    </tr>
+    
+    <tr class="odd">
+        <th>CVE编号</th>
+        <td><a target="_blank" href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2015-4000">CVE-2015-4000</a></a></td>
+    </tr>
+    
+    
+    <tr class="even">
+        <th>BUGTRAQ</th>
+        <td><a target="_blank" href="http://www.securityfocus.com/bid/74733">74733</a></td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>NSFOCUS</th>
+        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/30158">30158</a></td>
+    </tr>
+    
+    
+    <tr class="even">
+        <th>CNNVD编号</th>
+        <td><a target="_blank" href="http://www.cnnvd.org.cn/vulnerability/show/cv_cnnvdid/CNNVD-201505-428">CNNVD-201505-428</a></td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>CNCVE编号</th>
+        <td>CNCVE-20154000</td>
+    </tr>
+    
+    
+    <tr class="even">
+        <th>CVSS评分</th>
+        <td>4.3</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>CNVD编号</th>
+        <td><a target="_blank" href="http://www.cnvd.org.cn/flaw/show/CNVD-2015-03367">CNVD-2015-03367</a></td>
+    </tr>
+    
+    
+            </table>
+        </td>
+    </tr><tr class="even vuln_low" style="cursor:pointer;" onclick="no_toggle('4_1_6','table_4_1_6')">
+        <td>6</td>
+        <td>
+        <img id="4_1_6" class="ico plus" src="reportfiles/images/blank.gif">
+        <img align='absmiddle' src='reportfiles/images/vuln_low.gif' ></img>
+        <span style='color:#737373'>SSL/TLS RC4 信息泄露漏洞(CVE-2013-2566)【原理扫描】</span>
+        <!--<span class="level_danger_high">SSL/TLS RC4 信息泄露漏洞(CVE-2013-2566)【原理扫描】</span></td>-->
+        </td>
+        <td>1/2</td>
+        <td>50%</td>
+        <td>1</td>
+    </tr>
+    <tr class="more hide even" id="table_4_1_6">
+        <th></th>
+        <td style="padding-left:20px" class="extend" colspan='4'>
+            <table style="white-space:pre-wrap;" class="report_table" width="100%"><tr class="odd">
+                <th width="20%">受影响主机</th>
+                <td width="80%"><a href="host/163.200.100.64.html" target="_blank">163.200.100.64</a>;&nbsp</td>
+            </tr>
+            
+            
+    <tr class="even">
+        <th>详细描述</th>
+        <td>安全套接层（Secure Sockets Layer，SSL），一种安全协议，是网景公司（Netscape）在推出Web浏览器首版的同时提出的，目的是为网络通信提供安全及数据完整性。SSL在传输层对网络连接进行加密。传输层安全（Transport Layer Security），IETF对SSL协议标准化（RFC 2246）后的产物，与SSL 3.0差异很小。
+
+SSL/TLS内使用的RC4算法存在单字节偏差安全漏洞，可允许远程攻击者通过分析统计使用的大量相同的明文会话，利用此漏洞恢复纯文本信息。</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>解决办法</th>
+        <td>对于具体Linux发行版本中使用的版本，可以参考如下链接，确认是否受该漏洞影响：
+Ubuntu:
+http://www.ubuntu.com/usn/USN-2031-1/
+http://www.ubuntu.com/usn/USN-2032-1/</td>
+    </tr>
+    
+    <tr class="even">
+        <th>威胁分值</th>
+        <td>2.6</td>
+    </tr>
+    <tr class="odd">
+        <th>危险插件</th>
+        <td>否</td>
+    </tr>
+    <tr class="even">
+        <th>发现日期</th>
+        <td>2013-03-12</td>
+    </tr>
+    
+    <tr class="odd">
+        <th>CVE编号</th>
+        <td><a target="_blank" href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2013-2566">CVE-2013-2566</a></a></td>
+    </tr>
+    
+    
+    <tr class="even">
+        <th>BUGTRAQ</th>
+        <td><a target="_blank" href="http://www.securityfocus.com/bid/58796">58796</a></td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>NSFOCUS</th>
+        <td><a target="_blank" href="http://www.nsfocus.net/vulndb/23179">23179</a></td>
+    </tr>
+    
+    
+    <tr class="even">
+        <th>CNNVD编号</th>
+        <td><a target="_blank" href="http://www.cnnvd.org.cn/vulnerability/show/cv_cnnvdid/CNNVD-201303-335">CNNVD-201303-335</a></td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>CNCVE编号</th>
+        <td>CNCVE-20132566</td>
+    </tr>
+    
+    
+    <tr class="even">
+        <th>CVSS评分</th>
+        <td>2.6</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>CNVD编号</th>
+        <td><a target="_blank" href="http://www.cnvd.org.cn/flaw/show/CNVD-2013-02724">CNVD-2013-02724</a></td>
+    </tr>
+    
+    
+            </table>
+        </td>
+    </tr><tr class="odd vuln_low" style="cursor:pointer;" onclick="no_toggle('4_1_7','table_4_1_7')">
+        <td>7</td>
+        <td>
+        <img id="4_1_7" class="ico plus" src="reportfiles/images/blank.gif">
+        <img align='absmiddle' src='reportfiles/images/vuln_low.gif' ></img>
+        <span style='color:#737373'>可通过HTTP获取远端WWW服务信息</span>
+        <!--<span class="level_danger_high">可通过HTTP获取远端WWW服务信息</span></td>-->
+        </td>
+        <td>1/2</td>
+        <td>50%</td>
+        <td>1</td>
+    </tr>
+    <tr class="more hide odd" id="table_4_1_7">
+        <th></th>
+        <td style="padding-left:20px" class="extend" colspan='4'>
+            <table style="white-space:pre-wrap;" class="report_table" width="100%"><tr class="odd">
+                <th width="20%">受影响主机</th>
+                <td width="80%"><a href="host/163.200.100.63.html" target="_blank">163.200.100.63</a>;&nbsp</td>
+            </tr>
+            
+            
+    <tr class="even">
+        <th>详细描述</th>
+        <td>本插件检测远端HTTP Server信息。这可能使得攻击者了解远程系统类型以便进行下一步的攻击。</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>解决办法</th>
+        <td>NSFOCUS建议您采取以下措施以降低威胁：
+
+* 改变您的HTTP服务器的缺省banner。</td>
+    </tr>
+    
+    <tr class="even">
+        <th>威胁分值</th>
+        <td>1.0</td>
+    </tr>
+    <tr class="odd">
+        <th>危险插件</th>
+        <td>否</td>
+    </tr>
+    <tr class="even">
+        <th>发现日期</th>
+        <td>1999-01-01</td>
+    </tr>
+    
+    <tr class="odd">
+        <th>CVE编号</th>
+        <td><a target="_blank" href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0633">CVE-1999-0633</a></a></td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+            </table>
+        </td>
+    </tr><tr class="even vuln_low" style="cursor:pointer;" onclick="no_toggle('4_1_8','table_4_1_8')">
+        <td>8</td>
+        <td>
+        <img id="4_1_8" class="ico plus" src="reportfiles/images/blank.gif">
+        <img align='absmiddle' src='reportfiles/images/vuln_low.gif' ></img>
+        <span style='color:#737373'>远端SSH Server允许使用低版本SSH协议</span>
+        <!--<span class="level_danger_high">远端SSH Server允许使用低版本SSH协议</span></td>-->
+        </td>
+        <td>2/2</td>
+        <td>100%</td>
+        <td>2</td>
+    </tr>
+    <tr class="more hide even" id="table_4_1_8">
+        <th></th>
+        <td style="padding-left:20px" class="extend" colspan='4'>
+            <table style="white-space:pre-wrap;" class="report_table" width="100%"><tr class="odd">
+                <th width="20%">受影响主机</th>
+                <td width="80%"><a href="host/163.200.100.63.html" target="_blank">163.200.100.63</a>;&nbsp<a href="host/163.200.100.64.html" target="_blank">163.200.100.64</a>;&nbsp</td>
+            </tr>
+            
+            
+    <tr class="even">
+        <th>详细描述</th>
+        <td>远端SSH Server允许使用1.33、1.5或者1.99版的SSH协议进行通信。这些协议并不足够安全，不应该继续使用它们。</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>解决办法</th>
+        <td>如果您正在使用OpenSSH，设置选项&#39;Protocol&#39;为&#39;2&#39;。如果您正在使用SSH，设置选&#39;Ssh1Compatibility&#39;为&#39;no&#39;。</td>
+    </tr>
+    
+    <tr class="even">
+        <th>威胁分值</th>
+        <td>1.0</td>
+    </tr>
+    <tr class="odd">
+        <th>危险插件</th>
+        <td>否</td>
+    </tr>
+    <tr class="even">
+        <th>发现日期</th>
+        <td>2001-01-01</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+            </table>
+        </td>
+    </tr><tr class="odd vuln_low" style="cursor:pointer;" onclick="no_toggle('4_1_9','table_4_1_9')">
+        <td>9</td>
+        <td>
+        <img id="4_1_9" class="ico plus" src="reportfiles/images/blank.gif">
+        <img align='absmiddle' src='reportfiles/images/vuln_low.gif' ></img>
+        <span style='color:#737373'>检测到远端XDMCP服务正在运行中</span>
+        <!--<span class="level_danger_high">检测到远端XDMCP服务正在运行中</span></td>-->
+        </td>
+        <td>1/2</td>
+        <td>50%</td>
+        <td>1</td>
+    </tr>
+    <tr class="more hide odd" id="table_4_1_9">
+        <th></th>
+        <td style="padding-left:20px" class="extend" colspan='4'>
+            <table style="white-space:pre-wrap;" class="report_table" width="100%"><tr class="odd">
+                <th width="20%">受影响主机</th>
+                <td width="80%"><a href="host/163.200.100.63.html" target="_blank">163.200.100.63</a>;&nbsp</td>
+            </tr>
+            
+            
+    <tr class="even">
+        <th>详细描述</th>
+        <td>扫描过程中检测到远端XDMCP服务正在运行中。
+
+XDMCP协议用于X显示管理，整个通信过程未经加密处理，包括口令传输过程。使用同一X Server的攻击者有可能捕获其它X Client的击键，包括口令输入。</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>解决办法</th>
+        <td>禁用XDMCP服务</td>
+    </tr>
+    
+    <tr class="even">
+        <th>威胁分值</th>
+        <td>1.0</td>
+    </tr>
+    <tr class="odd">
+        <th>危险插件</th>
+        <td>否</td>
+    </tr>
+    <tr class="even">
+        <th>发现日期</th>
+        <td>2001-01-01</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+            </table>
+        </td>
+    </tr><tr class="even vuln_low" style="cursor:pointer;" onclick="no_toggle('4_1_10','table_4_1_10')">
+        <td>10</td>
+        <td>
+        <img id="4_1_10" class="ico plus" src="reportfiles/images/blank.gif">
+        <img align='absmiddle' src='reportfiles/images/vuln_low.gif' ></img>
+        <span style='color:#737373'>检测到远端X服务正在运行中</span>
+        <!--<span class="level_danger_high">检测到远端X服务正在运行中</span></td>-->
+        </td>
+        <td>2/2</td>
+        <td>100%</td>
+        <td>2</td>
+    </tr>
+    <tr class="more hide even" id="table_4_1_10">
+        <th></th>
+        <td style="padding-left:20px" class="extend" colspan='4'>
+            <table style="white-space:pre-wrap;" class="report_table" width="100%"><tr class="odd">
+                <th width="20%">受影响主机</th>
+                <td width="80%"><a href="host/163.200.100.63.html" target="_blank">163.200.100.63</a>;&nbsp<a href="host/163.200.100.64.html" target="_blank">163.200.100.64</a>;&nbsp</td>
+            </tr>
+            
+            
+    <tr class="even">
+        <th>详细描述</th>
+        <td>X11协议是一种基于客户端/服务器模型的协议。X Server监听在6000/TCP端口，接受客户端发来的各种命令请求，服务器执行完命令后将事件返回给客户端。
+
+如果允许从任意IP连接X Server的话，攻击者可能登录X Server并记录使用同一X Server的其它X Client的所有击键操作，这将包括帐号、密码等敏感信息。</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>解决办法</th>
+        <td>NSFOCUS建议您采取以下措施以降低威胁:
+
+* 在防火墙上禁止对内网6000/TCP端口的访问，以限制未授权的X访问
+
+* 在X Server所在主机上执行xhost命令限制X Client所在IP</td>
+    </tr>
+    
+    <tr class="even">
+        <th>威胁分值</th>
+        <td>1.0</td>
+    </tr>
+    <tr class="odd">
+        <th>危险插件</th>
+        <td>否</td>
+    </tr>
+    <tr class="even">
+        <th>发现日期</th>
+        <td>1997-07-01</td>
+    </tr>
+    
+    <tr class="odd">
+        <th>CVE编号</th>
+        <td><a target="_blank" href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0526">CVE-1999-0526</a></a></td>
+    </tr>
+    
+    
+    
+    
+    <tr class="even">
+        <th>CNNVD编号</th>
+        <td><a target="_blank" href="http://www.cnnvd.org.cn/vulnerability/show/cv_cnnvdid/CNNVD-199707-001">CNNVD-199707-001</a></td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>CNCVE编号</th>
+        <td>CNCVE-19990526</td>
+    </tr>
+    
+    
+    <tr class="even">
+        <th>CVSS评分</th>
+        <td>10.0</td>
+    </tr>
+    
+    
+    
+            </table>
+        </td>
+    </tr><tr class="odd vuln_low" style="cursor:pointer;" onclick="no_toggle('4_1_11','table_4_1_11')">
+        <td>11</td>
+        <td>
+        <img id="4_1_11" class="ico plus" src="reportfiles/images/blank.gif">
+        <img align='absmiddle' src='reportfiles/images/vuln_low.gif' ></img>
+        <span style='color:#737373'>允许Traceroute探测</span>
+        <!--<span class="level_danger_high">允许Traceroute探测</span></td>-->
+        </td>
+        <td>1/2</td>
+        <td>50%</td>
+        <td>1</td>
+    </tr>
+    <tr class="more hide odd" id="table_4_1_11">
+        <th></th>
+        <td style="padding-left:20px" class="extend" colspan='4'>
+            <table style="white-space:pre-wrap;" class="report_table" width="100%"><tr class="odd">
+                <th width="20%">受影响主机</th>
+                <td width="80%"><a href="host/163.200.100.63.html" target="_blank">163.200.100.63</a>;&nbsp</td>
+            </tr>
+            
+            
+    <tr class="even">
+        <th>详细描述</th>
+        <td>本插件使用Traceroute探测来获取扫描器与远程主机之间的路由信息。攻击者也可以利用这些信息来了解目标网络的网络拓扑。</td>
+    </tr>
+    
+    <tr class="odd">
+        <th>解决办法</th>
+        <td></td>
+    </tr>
+    
+    <tr class="even">
+        <th>威胁分值</th>
+        <td>1.0</td>
+    </tr>
+    <tr class="odd">
+        <th>危险插件</th>
+        <td>否</td>
+    </tr>
+    <tr class="even">
+        <th>发现日期</th>
+        <td>1999-01-01</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+            </table>
+        </td>
+    </tr><tr class="even vuln_low" style="cursor:pointer;" onclick="no_toggle('4_1_12','table_4_1_12')">
+        <td>12</td>
+        <td>
+        <img id="4_1_12" class="ico plus" src="reportfiles/images/blank.gif">
+        <img align='absmiddle' src='reportfiles/images/vuln_low.gif' ></img>
+        <span style='color:#737373'>SSH版本信息可被获取</span>
+        <!--<span class="level_danger_high">SSH版本信息可被获取</span></td>-->
+        </td>
+        <td>2/2</td>
+        <td>100%</td>
+        <td>2</td>
+    </tr>
+    <tr class="more hide even" id="table_4_1_12">
+        <th></th>
+        <td style="padding-left:20px" class="extend" colspan='4'>
+            <table style="white-space:pre-wrap;" class="report_table" width="100%"><tr class="odd">
+                <th width="20%">受影响主机</th>
+                <td width="80%"><a href="host/163.200.100.63.html" target="_blank">163.200.100.63</a>;&nbsp<a href="host/163.200.100.64.html" target="_blank">163.200.100.64</a>;&nbsp</td>
+            </tr>
+            
+            
+    <tr class="even">
+        <th>详细描述</th>
+        <td>SSH服务允许远程攻击者获得ssh的具体信息，如版本号等等。这可能为攻击者发动进一步攻击提供帮助。</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>解决办法</th>
+        <td>NSFOCUS建议您采取以下措施以降低威胁：
+
+* 修改源代码或者配置文件改变SSH服务的缺省banner。</td>
+    </tr>
+    
+    <tr class="even">
+        <th>威胁分值</th>
+        <td>1.0</td>
+    </tr>
+    <tr class="odd">
+        <th>危险插件</th>
+        <td>否</td>
+    </tr>
+    <tr class="even">
+        <th>发现日期</th>
+        <td>1999-01-01</td>
+    </tr>
+    
+    <tr class="odd">
+        <th>CVE编号</th>
+        <td><a target="_blank" href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0634">CVE-1999-0634</a></a></td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+            </table>
+        </td>
+    </tr><tr class="odd vuln_low" style="cursor:pointer;" onclick="no_toggle('4_1_13','table_4_1_13')">
+        <td>13</td>
+        <td>
+        <img id="4_1_13" class="ico plus" src="reportfiles/images/blank.gif">
+        <img align='absmiddle' src='reportfiles/images/vuln_low.gif' ></img>
+        <span style='color:#737373'>ICMP timestamp请求响应漏洞</span>
+        <!--<span class="level_danger_high">ICMP timestamp请求响应漏洞</span></td>-->
+        </td>
+        <td>2/2</td>
+        <td>100%</td>
+        <td>2</td>
+    </tr>
+    <tr class="more hide odd" id="table_4_1_13">
+        <th></th>
+        <td style="padding-left:20px" class="extend" colspan='4'>
+            <table style="white-space:pre-wrap;" class="report_table" width="100%"><tr class="odd">
+                <th width="20%">受影响主机</th>
+                <td width="80%"><a href="host/163.200.100.63.html" target="_blank">163.200.100.63</a>;&nbsp<a href="host/163.200.100.64.html" target="_blank">163.200.100.64</a>;&nbsp</td>
+            </tr>
+            
+            
+    <tr class="even">
+        <th>详细描述</th>
+        <td>远程主机会回复ICMP_TIMESTAMP查询并返回它们系统的当前时间。
+
+这可能允许攻击者攻击一些基于时间认证的协议。</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>解决办法</th>
+        <td>NSFOCUS建议您采取以下措施以降低威胁：
+
+* 在您的防火墙上过滤外来的ICMP timestamp（类型 13）报文以及外出的ICMP timestamp回复报文。</td>
+    </tr>
+    
+    <tr class="even">
+        <th>威胁分值</th>
+        <td>1.0</td>
+    </tr>
+    <tr class="odd">
+        <th>危险插件</th>
+        <td>否</td>
+    </tr>
+    <tr class="even">
+        <th>发现日期</th>
+        <td>1997-08-01</td>
+    </tr>
+    
+    <tr class="odd">
+        <th>CVE编号</th>
+        <td><a target="_blank" href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0524">CVE-1999-0524</a></a></td>
+    </tr>
+    
+    
+    
+    
+    <tr class="even">
+        <th>CNNVD编号</th>
+        <td><a target="_blank" href="http://www.cnnvd.org.cn/vulnerability/show/cv_cnnvdid/CNNVD-199708-003">CNNVD-199708-003</a></td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>CNCVE编号</th>
+        <td>CNCVE-19990524</td>
+    </tr>
+    
+    
+    <tr class="even">
+        <th>CVSS评分</th>
+        <td>0</td>
+    </tr>
+    
+    
+    
+            </table>
+        </td>
+    </tr><tr class="even vuln_low" style="cursor:pointer;" onclick="no_toggle('4_1_14','table_4_1_14')">
+        <td>14</td>
+        <td>
+        <img id="4_1_14" class="ico plus" src="reportfiles/images/blank.gif">
+        <img align='absmiddle' src='reportfiles/images/vuln_low.gif' ></img>
+        <span style='color:#737373'>可通过HTTPS获取远端WWW服务信息</span>
+        <!--<span class="level_danger_high">可通过HTTPS获取远端WWW服务信息</span></td>-->
+        </td>
+        <td>1/2</td>
+        <td>50%</td>
+        <td>1</td>
+    </tr>
+    <tr class="more hide even" id="table_4_1_14">
+        <th></th>
+        <td style="padding-left:20px" class="extend" colspan='4'>
+            <table style="white-space:pre-wrap;" class="report_table" width="100%"><tr class="odd">
+                <th width="20%">受影响主机</th>
+                <td width="80%"><a href="host/163.200.100.63.html" target="_blank">163.200.100.63</a>;&nbsp</td>
+            </tr>
+            
+            
+    <tr class="even">
+        <th>详细描述</th>
+        <td>可通过HTTPS获取远端HTTP服务器信息。这可能使得攻击者了解远程系统类型以便进行下一步的攻击。</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>解决办法</th>
+        <td>NSFOCUS建议您采取以下措施以降低威胁：
+
+* 改变您的HTTP服务器的缺省banner。</td>
+    </tr>
+    
+    <tr class="even">
+        <th>威胁分值</th>
+        <td>1.0</td>
+    </tr>
+    <tr class="odd">
+        <th>危险插件</th>
+        <td>否</td>
+    </tr>
+    <tr class="even">
+        <th>发现日期</th>
+        <td>1999-01-01</td>
+    </tr>
+    
+    <tr class="odd">
+        <th>CVE编号</th>
+        <td><a target="_blank" href="http://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-1999-0633">CVE-1999-0633</a></a></td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+            </table>
+        </td>
+    </tr><tr class="odd vuln_low" style="cursor:pointer;" onclick="no_toggle('4_1_15','table_4_1_15')">
+        <td>15</td>
+        <td>
+        <img id="4_1_15" class="ico plus" src="reportfiles/images/blank.gif">
+        <img align='absmiddle' src='reportfiles/images/vuln_low.gif' ></img>
+        <span style='color:#737373'>检测到目标主机加密通信支持的加密算法</span>
+        <!--<span class="level_danger_high">检测到目标主机加密通信支持的加密算法</span></td>-->
+        </td>
+        <td>2/2</td>
+        <td>100%</td>
+        <td>2</td>
+    </tr>
+    <tr class="more hide odd" id="table_4_1_15">
+        <th></th>
+        <td style="padding-left:20px" class="extend" colspan='4'>
+            <table style="white-space:pre-wrap;" class="report_table" width="100%"><tr class="odd">
+                <th width="20%">受影响主机</th>
+                <td width="80%"><a href="host/163.200.100.63.html" target="_blank">163.200.100.63</a>;&nbsp<a href="host/163.200.100.64.html" target="_blank">163.200.100.64</a>;&nbsp</td>
+            </tr>
+            
+            
+    <tr class="even">
+        <th>详细描述</th>
+        <td>该插件连接到目标主机服务，检测到目标服务加密通信使用的SSL加密算法。</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>解决办法</th>
+        <td>该漏洞仅仅是一个信息获取的漏洞，可以不做修复。</td>
+    </tr>
+    
+    <tr class="even">
+        <th>威胁分值</th>
+        <td>1.0</td>
+    </tr>
+    <tr class="odd">
+        <th>危险插件</th>
+        <td>否</td>
+    </tr>
+    <tr class="even">
+        <th>发现日期</th>
+        <td>2001-01-01</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+            </table>
+        </td>
+    </tr><tr class="even vuln_low" style="cursor:pointer;" onclick="no_toggle('4_1_16','table_4_1_16')">
+        <td>16</td>
+        <td>
+        <img id="4_1_16" class="ico plus" src="reportfiles/images/blank.gif">
+        <img align='absmiddle' src='reportfiles/images/vuln_low.gif' ></img>
+        <span style='color:#737373'>检测到目标服务支持SSL弱加密算法</span>
+        <!--<span class="level_danger_high">检测到目标服务支持SSL弱加密算法</span></td>-->
+        </td>
+        <td>1/2</td>
+        <td>50%</td>
+        <td>1</td>
+    </tr>
+    <tr class="more hide even" id="table_4_1_16">
+        <th></th>
+        <td style="padding-left:20px" class="extend" colspan='4'>
+            <table style="white-space:pre-wrap;" class="report_table" width="100%"><tr class="odd">
+                <th width="20%">受影响主机</th>
+                <td width="80%"><a href="host/163.200.100.64.html" target="_blank">163.200.100.64</a>;&nbsp</td>
+            </tr>
+            
+            
+    <tr class="even">
+        <th>详细描述</th>
+        <td>远程主机使用的SSL加密支持弱加密算法或根本就不加密。
+目前已知的弱加密算法：
+EXP-RC4-MD5|SSLv2|Kx=RSA(512)|Au=RSA|Enc=RC4(40)|Mac=MD5|export
+EXP-RC2-CBC-MD5|SSLv2|Kx=RSA(512)|Au=RSA|Enc=RC2(40)|Mac=MD5|export
+EXP-RC4-MD5|SSLv3|Kx=RSA(512)|Au=RSA|Enc=RC4(40)|Mac=MD5|export
+EXP-RC2-CBC-MD5|SSLv3|Kx=RSA(512)|Au=RSA|Enc=RC2(40)|Mac=MD5|export
+EXP-DES-CBC-SHA|SSLv3|Kx=RSA(512)|Au=RSA|Enc=DES(40)|Mac=SHA1|export
+EXP-DH-DSS-DES-CBC-SHA|SSLv3|Kx=DH(512)|Au=DSS|Enc=DES(40)|Mac=SHA1|export
+EXP-DH-RSA-DES-CBC-SHA|SSLv3|Kx=DH(512)|Au=RSA|Enc=DES(40)|Mac=SHA1|export
+EXP-EDH-DSS-DES-CBC-SHA|SSLv3|Kx=DH(512)|Au=DSS|Enc=DES(40)|Mac=SHA1|export
+EXP-EDH-RSA-DES-CBC-SHA|SSLv3|Kx=DH(512)|Au=RSA|Enc=DES(40)|Mac=SHA1|export
+EXP-ADH-RC4-MD5|SSLv3|Kx=DH(512)|Au=None|Enc=RC4(40)|Mac=MD5|export
+EXP-ADH-DES-CBC-SHA|SSLv3|Kx=DH(512)|Au=None|Enc=DES(40)|Mac=SHA1|export
+EXP-KRB5-DES-CBC-SHA|SSLv3|Kx=KRB5|Au=KRB5|Enc=DES(40)|Mac=SHA1|export
+EXP-KRB5-RC2-CBC-SHA|SSLv3|Kx=KRB5|Au=KRB5|Enc=RC2(40)|Mac=SHA1|export
+EXP-KRB5-RC4-SHA|SSLv3|Kx=KRB5|Au=KRB5|Enc=RC4(40)|Mac=SHA1|export
+EXP-KRB5-DES-CBC-MD5|SSLv3|Kx=KRB5|Au=KRB5|Enc=DES(40)|Mac=MD5|export
+EXP-KRB5-RC2-CBC-MD5|SSLv3|Kx=KRB5|Au=KRB5|Enc=RC2(40)|Mac=MD5|export
+EXP-KRB5-RC4-MD5|SSLv3|Kx=KRB5|Au=KRB5|Enc=RC4(40)|Mac=MD5|export
+EXP-RC4-MD5|TLSv1|Kx=RSA(512)|Au=RSA|Enc=RC4(40)|Mac=MD5|export
+EXP-RC2-CBC-MD5|TLSv1|Kx=RSA(512)|Au=RSA|Enc=RC2(40)|Mac=MD5|export
+EXP-DES-CBC-SHA|TLSv1|Kx=RSA(512)|Au=RSA|Enc=DES(40)|Mac=SHA1|export
+EXP-DH-DSS-DES-CBC-SHA|TLSv1|Kx=DH(512)|Au=DSS|Enc=DES(40)|Mac=SHA1|export
+EXP-DH-RSA-DES-CBC-SHA|TLSv1|Kx=DH(512)|Au=RSA|Enc=DES(40)|Mac=SHA1|export
+EXP-EDH-DSS-DES-CBC-SHA|TLSv1|Kx=DH(512)|Au=DSS|Enc=DES(40)|Mac=SHA1|export
+EXP-EDH-RSA-DES-CBC-SHA|TLSv1|Kx=DH(512)|Au=RSA|Enc=DES(40)|Mac=SHA1|export
+EXP-ADH-RC4-MD5|TLSv1|Kx=DH(512)|Au=None|Enc=RC4(40)|Mac=MD5|export
+EXP-ADH-DES-CBC-SHA|TLSv1|Kx=DH(512)|Au=None|Enc=DES(40)|Mac=SHA1|export
+EXP-KRB5-DES-CBC-SHA|TLSv1|Kx=KRB5|Au=KRB5|Enc=DES(40)|Mac=SHA1|export
+EXP-KRB5-RC2-CBC-SHA|TLSv1|Kx=KRB5|Au=KRB5|Enc=RC2(40)|Mac=SHA1|export
+EXP-KRB5-RC4-SHA|TLSv1|Kx=KRB5|Au=KRB5|Enc=RC4(40)|Mac=SHA1|export
+EXP-KRB5-DES-CBC-MD5|TLSv1|Kx=KRB5|Au=KRB5|Enc=DES(40)|Mac=MD5|export
+EXP-KRB5-RC2-CBC-MD5|TLSv1|Kx=KRB5|Au=KRB5|Enc=RC2(40)|Mac=MD5|export
+EXP-KRB5-RC4-MD5|TLSv1|Kx=KRB5|Au=KRB5|Enc=RC4(40)|Mac=MD5|export
+NULL-MD5|SSLv2|Kx=RSA|Au=RSA|Enc=None|Mac=MD5
+NULL|SSLv2|Kx=RSA|Au=RSA|Enc=None|Mac=None
+NULL-MD5|SSLv3|Kx=RSA|Au=RSA|Enc=None|Mac=MD5
+NULL-SHA|SSLv3|Kx=RSA|Au=RSA|Enc=None|Mac=SHA1
+FZA-NULL-SHA|SSLv3|Kx=KEA|Au=DSA|Enc=None|Mac=SHA1
+n/a|TLSv1|Kx=None|Au=None|Enc=None|Mac=None
+NULL-MD5|TLSv1|Kx=RSA|Au=RSA|Enc=None|Mac=MD5
+NULL-SHA|TLSv1|Kx=RSA|Au=RSA|Enc=None|Mac=SHA1
+GOST94-NULL-GOST94|TLSv1|Kx=GOST|Au=GOST94|Enc=None|Mac=GOST94
+GOST2001-NULL-GOST94|TLSv1|Kx=GOST|Au=GOST01|Enc=None|Mac=GOST94
+ECDH-ECDSA-NULL-SHA|TLSv1|Kx=ECDH/ECDSA|Au=ECDH|Enc=None|Mac=SHA1
+ECDHE-ECDSA-NULL-SHA|TLSv1|Kx=ECDH|Au=ECDSA|Enc=None|Mac=SHA1
+ECDH-RSA-NULL-SHA|TLSv1|Kx=ECDH/RSA|Au=ECDH|Enc=None|Mac=SHA1
+ECDHE-RSA-NULL-SHA|TLSv1|Kx=ECDH|Au=RSA|Enc=None|Mac=SHA1
+AECDH-NULL-SHA|TLSv1|Kx=ECDH|Au=None|Enc=None|Mac=SHA1
+n/a|TLSv1|Kx=ECDHE_PSK|Au=PSK|Enc=None|Mac=SHA1
+n/a|TLSv1|Kx=ECDHE_PSK|Au=PSK|Enc=None|Mac=SHA256
+n/a|TLSv1|Kx=ECDHE_PSK|Au=PSK|Enc=None|Mac=SHA384
+n/a|TLSv1|Kx=PSK|Au=PSK|Enc=None|Mac=SHA256
+n/a|TLSv1|Kx=PSK|Au=PSK|Enc=None|Mac=SHA384
+n/a|TLSv1|Kx=DHE|Au=PSK|Enc=None|Mac=SHA256
+n/a|TLSv1|Kx=DHE|Au=PSK|Enc=None|Mac=SHA384
+n/a|TLSv1|Kx=RSA|Au=PSK|Enc=None|Mac=SHA256
+n/a|TLSv1|Kx=RSA|Au=PSK|Enc=None|Mac=SHA384</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>解决办法</th>
+        <td>禁用已知弱加密算法。
+
+</td>
+    </tr>
+    
+    <tr class="even">
+        <th>威胁分值</th>
+        <td>1.0</td>
+    </tr>
+    <tr class="odd">
+        <th>危险插件</th>
+        <td>否</td>
+    </tr>
+    <tr class="even">
+        <th>发现日期</th>
+        <td>2001-01-01</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+            </table>
+        </td>
+    </tr><tr class="odd vuln_low" style="cursor:pointer;" onclick="no_toggle('4_1_17','table_4_1_17')">
+        <td>17</td>
+        <td>
+        <img id="4_1_17" class="ico plus" src="reportfiles/images/blank.gif">
+        <img align='absmiddle' src='reportfiles/images/vuln_low.gif' ></img>
+        <span style='color:#737373'>检测到目标服务支持SSL中等强度加密算法</span>
+        <!--<span class="level_danger_high">检测到目标服务支持SSL中等强度加密算法</span></td>-->
+        </td>
+        <td>1/2</td>
+        <td>50%</td>
+        <td>1</td>
+    </tr>
+    <tr class="more hide odd" id="table_4_1_17">
+        <th></th>
+        <td style="padding-left:20px" class="extend" colspan='4'>
+            <table style="white-space:pre-wrap;" class="report_table" width="100%"><tr class="odd">
+                <th width="20%">受影响主机</th>
+                <td width="80%"><a href="host/163.200.100.64.html" target="_blank">163.200.100.64</a>;&nbsp</td>
+            </tr>
+            
+            
+    <tr class="even">
+        <th>详细描述</th>
+        <td>远程主机支持的SSL加密算法提供了中等强度的加密算法，目前，使用密钥长度大于等于56bits并且小于112bits的算法都被认为是中等强度的加密算法。</td>
+    </tr>
+    
+    
+    <tr class="odd">
+        <th>解决办法</th>
+        <td>参考服务配置手册，修改配置文件，禁用中等强度加密算法。</td>
+    </tr>
+    
+    <tr class="even">
+        <th>威胁分值</th>
+        <td>1.0</td>
+    </tr>
+    <tr class="odd">
+        <th>危险插件</th>
+        <td>否</td>
+    </tr>
+    <tr class="even">
+        <th>发现日期</th>
+        <td>2001-01-01</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+            </table>
+        </td>
+    </tr><tr class="even vuln_low" style="cursor:pointer;" onclick="no_toggle('4_1_18','table_4_1_18')">
+        <td>18</td>
+        <td>
+        <img id="4_1_18" class="ico plus" src="reportfiles/images/blank.gif">
+        <img align='absmiddle' src='reportfiles/images/vuln_low.gif' ></img>
+        <span style='color:#737373'>探测到SSH服务器支持的算法</span>
+        <!--<span class="level_danger_high">探测到SSH服务器支持的算法</span></td>-->
+        </td>
+        <td>2/2</td>
+        <td>100%</td>
+        <td>2</td>
+    </tr>
+    <tr class="more hide even" id="table_4_1_18">
+        <th></th>
+        <td style="padding-left:20px" class="extend" colspan='4'>
+            <table style="white-space:pre-wrap;" class="report_table" width="100%"><tr class="odd">
+                <th width="20%">受影响主机</th>
+                <td width="80%"><a href="host/163.200.100.63.html" target="_blank">163.200.100.63</a>;&nbsp<a href="host/163.200.100.64.html" target="_blank">163.200.100.64</a>;&nbsp</td>
+            </tr>
+            
+            
+    <tr class="even">
+        <th>详细描述</th>
+        <td>本插件用来获取SSH服务器支持的算法列表</td>
+    </tr>
+    
+    <tr class="odd">
+        <th>解决办法</th>
+        <td></td>
+    </tr>
+    
+    <tr class="even">
+        <th>威胁分值</th>
+        <td>0.0</td>
+    </tr>
+    <tr class="odd">
+        <th>危险插件</th>
+        <td>否</td>
+    </tr>
+    <tr class="even">
+        <th>发现日期</th>
+        <td>2016-03-08</td>
+    </tr>
+    
+    
+    
+    
+    
+    
+    
+    
+            </table>
+        </td>
+    </tr>
+    </tbody>
+    <tfoot>
+    <tr class="first_title">
+        <td colspan="4">合计</td>
+        <td>26</td>
+    </tr>
+    </tfoot>
+    </table>
+  </div></div><div class="report_h report_h1">5.脆弱帐号</div>
+<div class="report_content"></div><div class="report_h report_h1">6.参考标准</div>
+<div class="report_content"><div class="report_h report_h2" id="title00">6.1单一漏洞风险等级评定标准</div>
+    <div>
+      <table class="report_table">
+        <tbody>
+          <tr class="second_title">
+            <td width="80">危险程度</td>
+            <td width="150">危险值区域</td>
+            <td>危险程度说明</td>
+          </tr>
+          <tr class="even">
+            <td><img src="reportfiles/images/vuln_high.gif"> 高</td>
+            <td>7 &lt;= 漏洞风险值 &lt;= 10</td>
+            <td>攻击者可以远程执行任意命令或者代码，或对系统进行远程拒绝服务攻击。</td>
+          </tr>
+          <tr class="odd">
+            <td><img src="reportfiles/images/vuln_middle.gif"> 中</td>
+            <td>4 &lt;= 漏洞风险值 &lt; 7</td>
+            <td>攻击者可以远程创建、修改、删除文件或数据，或对普通服务进行拒绝服务攻击。</td>
+          </tr>
+          <tr class="even">
+            <td><img src="reportfiles/images/vuln_low.gif"> 低</td>
+            <td>0 &lt;= 漏洞风险值 &lt; 4</td>
+            <td>攻击者可以获取某些系统、服务的信息，或读取系统文件和数据。</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>说明：</p>
+      <p>漏洞的风险值兼容CVSS评分标准。</p>
+    </div><div class="report_h report_h2" id="title00">6.2主机风险等级评定标准</div>
+    <div>
+      <table class="report_table">
+        <tbody>
+          <tr class="second_title">
+            <td width="200px">主机风险等级</td>
+            <td>主机风险值区域</td>
+          </tr>
+          <tr class="even">
+            <td><img src="reportfiles/images/d_high.gif"> 非常危险</td>
+            <td>7.0 &lt;= 主机风险值 &lt;= 10.0</td>
+          </tr>
+          <tr class="odd">
+            <td><img src="reportfiles/images/d_middle.gif"> 比较危险</td>
+            <td>5.0 &lt;= 主机风险值 &lt; 7.0</td>
+          </tr>
+          <tr class="even">
+            <td><img src="reportfiles/images/d_low.gif"> 比较安全</td>
+            <td>2.0 &lt;= 主机风险值 &lt; 5.0</td>
+          </tr>
+          <tr class="odd">
+            <td><img src="reportfiles/images/d_safe.gif"> 非常安全</td>
+            <td>0.0 &lt;= 主机风险值 &lt; 2.0</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>说明：</p>
+      <ol style="list-style:decimal;padding-left:40px;">
+      <li>按照远程安全评估系统的主机风险评估模型计算主机风险值。根据得到的主机风险值参考“主机风险等级评定标准”标识主机风险等等级。</li>
+      <li>将主机风险等级按照风险值的高低进行排序，得到非常危险、比较危险、比较安全、非常安全四种主机风险等级。</li>
+      <li>用户可以根据自己的需要修订主机风险等级中的主机风险值范围。</li>
+      </ol>
+    </div><div class="report_h report_h2" id="title00">6.3网络风险等级评定标准</div>
+    <div>
+      <table class="report_table">
+        <tbody>
+          <tr class="second_title">
+            <td width="200px">网络风险等级</td>
+            <td>网络风险值区域</td>
+          </tr>
+          <tr class="even">
+            <td><img src="reportfiles/images/d_high.gif"> 非常危险</td>
+            <td>8.0 &lt;= 网络风险值 &lt;= 10.0</td>
+          </tr>
+          <tr class="odd">
+            <td><img src="reportfiles/images/d_middle.gif"> 比较危险</td>
+            <td>5.0 &lt;= 网络风险值 &lt; 8.0</td>
+          </tr>
+          <tr class="even">
+            <td><img src="reportfiles/images/d_low.gif"> 比较安全</td>
+            <td>1.0 &lt;= 网络风险值 &lt; 5.0</td>
+          </tr>
+          <tr class="odd">
+            <td><img src="reportfiles/images/d_safe.gif"> 非常安全</td>
+            <td>0.0 &lt;= 网络风险值 &lt; 1.0</td>
+          </tr>
+        </tbody>
+      </table>
+      <p>说明：</p>
+      <ol style="list-style:decimal;padding-left:40px;">
+      <li>按照远程安全评估系统的网络风险评估模型计算该网络风险值。根据得到的网络风险值参考“网络风险等级评定标准“标识网络风险等等级。</li>
+      <li>将网络风险等级按照风险值的高低进行排序，得到非常危险、比较危险、比较安全、非常安全四种网络风险等级。</li>
+      <li>用户可以根据自己的需要修订网络风险等级中的网络风险值范围。</li>
+      </ol>
+    </div><div class="report_h report_h2" id="title00">6.4安全建议</div>
+        <div><p>据市场研究公司 Gartner 研究报告称&#34;实施漏洞管理的企业会避免近 90% 的攻击&#34;。可以看出，及时的漏洞修补可以在一定程度上防止病毒、攻击者的威胁。</p>
+            <p>远程安全评估系统建议对存在漏洞的主机参考附件中提出的解决方案进行漏洞修补、安全增强。</p>
+            <ul style="list-style:circle; padding-left:60px;">
+              <li>建议所有 Windows 系统使用&#34;Windows Update&#34;进行更新。</li>
+              <li>对于大量终端用户而言，可以采用 WSUS 进行自动补丁更新，也可以采用补丁分发系统及时对终端用户进行补丁更新。</li>
+              <li>对于存在弱口令的系统，需在加强使用者安全意识的前提下，督促其修改密码，或者使用策略来强制限制密码长度和复杂性。</li>
+              <li>对于存在弱口令或是空口令的服务，在一些关键服务上，应加强口令强度，同时需使用加密传输方式，对于一些可关闭的服务来说，建议关闭该服务以达到安全目的。</li>
+              <li>对于UNIX系统订阅厂商的安全公告，与厂商技术人员确认后进行漏洞修补、补丁安装、停止服务等。</li>
+              <li>由于其他原因不能及时安装补丁的系统，考虑在网络边界、路由器、防火墙上设置严格的访问控制策略，以保证网络的动态安全。</li>
+              <li>建议网络管理员、系统管理员、安全管理员关注安全信息、安全动态及最新的严重漏洞，攻与防的循环，伴随每个主流操作系统、应用服务的生命周期。</li>
+              <li>建议采用远程安全评估系统定期对网络进行评估，真正做到未雨绸缪。</li>
+            </ul><p>远程安全评估系统建议对存在不合规检查项的主机参考对应的检查点详情中提出的调整方案和标准值进行修正。</p>
+            <!--
+            <ul style="list-style:circle; padding-left:60px;">
+              <li>建议......</li>
+            </ul>
+            --></div></div>
+  </div>
+  <div class="report_tip"></div>
+</div>
+<!--content end-->
+</div>
+</body>
+</html>
